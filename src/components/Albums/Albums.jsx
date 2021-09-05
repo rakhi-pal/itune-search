@@ -21,12 +21,17 @@ const Albums = ({handleFavouritesClick, albums, originalAlbums, setAlbums, artis
         }
     }, [])
     useEffect(() => {
-        if(searchTerm !== '')
-        filterAlbums();
+        if(searchTerm === '' && artist === "All Artists")
+            filterAlbums();
+        else if (searchTerm !== '') {
+            filterAlbums();
+        }
     }, [searchTerm]);
 
     useEffect(() => {
-        if(categoryFilter.length)
+        if(categoryFilter.length === 0 && artist === "All Artists")
+            filterAlbums();
+        else if(categoryFilter.length)
             filterCategory();
     }, [categoryFilter]);
 
@@ -69,7 +74,6 @@ const Albums = ({handleFavouritesClick, albums, originalAlbums, setAlbums, artis
     }
 
     const handleDateTimeChange = value => {
-        console.log(value);
         let newAlbums = originalAlbums.filter(album => {
             return album['im:releaseDate'].label.includes(value);
         });

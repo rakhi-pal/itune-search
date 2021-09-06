@@ -30,7 +30,7 @@ It uses React-router-dom for routing to different pages. It also uses Material U
 6.	The layout must be responsive.
 
 ## Installation and Running test cases
-● yarn/nmp is used as a package manager 
+● yarn/npm is used as a package manager 
 
 Steps to run the test cases -
 ● "npm i" can be used to download the dependencies

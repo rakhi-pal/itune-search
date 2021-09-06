@@ -38,7 +38,7 @@ Steps to run the test cases -
 
 ## Design Decisions
 
-1. Function component based development methodology is used.
+1. Functional component based development methodology is used.
 2. I have though of having seperation of concerns while designing this simple application.
 3. You can find the sepeartion of the concerns in the src/components directory.
 4. Multiple components are created to handle different functionalities.
@@ -46,7 +46,7 @@ Steps to run the test cases -
 
 ## Trade offs or Further Enhancements - if given extra time
 
- ● We can so the testing of the components using jest. 
+ ● We can do the testing of the components using jest. 
  ● Performance of the application can be improved.
  ● UI can be enhanced further.
  ● Favorites list can be stored in the localhost and retrieved from there.

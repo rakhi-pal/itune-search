@@ -20,8 +20,8 @@ Evaluation Criteria.
 
 ## Introduction
 
-This project is developed using vanilla React with functional components and hooks(ES6+).
-It uses React-router-dom for routing to different pages. It also uses Material UI components. It provides a simple itune search app with the following reuirements met.
+This project is developed using React with functional components and hooks(ES6+).
+It uses React-router-dom for routing to different pages. It also uses Material UI components. It provides a simple itune search app with the following requirements met.
 1.	Allow the top 100 to be searchable.
 2.	Allow the user to see more information about the Album of a selected song.
 3.	Allow the user to apply category filter and date filter for release dates.
@@ -32,7 +32,7 @@ It uses React-router-dom for routing to different pages. It also uses Material U
 ## Installation and Running test cases
 ● yarn/npm is used as a package manager 
 
-Steps to run the test cases -
+Steps to run the application -
 ● "npm i" can be used to download the dependencies
 ● "npm run start" can be used to run the application (http://localhost:3000 to be accessed in the browser).
 

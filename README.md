@@ -50,4 +50,5 @@ Steps to run the application -
  ● Performance of the application can be improved.
  ● UI can be enhanced further.
  ● Favorites list can be stored in the localhost and retrieved from there.
+ ● Currently all the strings are hardcoded, it can be further enhanced to support Localization
  
